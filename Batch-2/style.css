@@ -1,0 +1,199 @@
+
+
+.head{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    
+    font-family: sans-serif;
+    padding: 20px 80px;
+    font-size: 13px;
+    z-index:999;
+    position:sticky;
+    width: 90%;
+}
+  
+.topmenu{
+   font-size: 20px;
+   color:rgb(36, 141, 247);
+   text-decoration: none;
+   padding-left: 30px;
+}
+
+.topmenu:hover{
+   text-decoration: underline;
+   color: rgb(18, 157, 249);
+   font-weight: bold;
+   font-size: 22px;
+}
+
+#home{
+   
+       background-image: url("bgn1.jpg");
+       height:90vh;
+       width:90%;
+       background-size: cover;
+       background-position: top 25% right 0;
+       padding: 0 80px ;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: center;
+       margin-bottom: 30px;
+}
+
+#home button{
+
+   margin-top: 0px;
+   border-radius: 10px;
+   font-family: sans-serif;
+   
+   color: #0c0c0c;
+   border:2px solid rgb(249, 251, 251);
+   padding: 10px 10px 10px 10px;
+   background-repeat: no-repeat;
+   font-weight: 700;
+   font-size: 15px;
+
+}
+#home h4 {
+   font-size: 50px;
+   color: #0a0a0a;
+   margin-bottom: 10px;
+   font-family: sans-serif;
+}
+#home span{
+   color: rgb(238, 41, 41);
+}
+#home button:hover{
+   text-decoration: underline;
+   color: rgb(18, 157, 249);
+   font-weight: bold;
+   font-size: 22px;
+}
+
+
+
+#cards{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.card-img{
+   width: 300px;
+   height: 200px;
+}
+.card-title{
+   font-size: 20px;
+   font-family: sans-serif;
+}
+.card-text{
+   font-size: 18px;
+   font-family: sans-serif;
+   text-align: justify;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+#about{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+
+@media screen and (max-width:1024px){
+   #home h4 {
+       position: absolute;
+       top: 20%; 
+       left: 5%; 
+       color: black;
+       font-size: 33px;
+       font-weight: bold;
+       white-space: nowrap; 
+     }
+     #home button{
+       position: absolute;
+       top: 30%;
+       left: 5%;  
+       background-color: black;
+       color: white;
+       padding: 10px 20px;
+       
+     }
+     #about p{
+       font-size: 23px;
+   
+   }
+  
+}
+   
+
+@media screen and (max-width:768px) {
+ 
+   .topmenu{
+       display: none;
+
+   }
+   .logo{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+       
+   }
+   #home{
+     position: relative;
+     text-align: right;
+     width: 100%;
+    }
+    
+    #home h4 {
+           position: absolute;
+           bottom: 35%; 
+           right: 5%; 
+           color: black;
+           font-size: 24px;
+           font-weight: bold;
+           white-space: nowrap; 
+         }
+         
+   #home button{
+      
+       position: absolute;
+       top: 30%;
+       left: 5%;  
+       background-color: black;
+       color: white;
+       padding: 10px 20px;
+       margin-left: 330px;
+           
+     }
+   #about{
+       position: relative;
+       text-align: right;
+       width: 100%;
+      }
+      #about p{
+       font-size: 23px;
+       padding:none;
+      
+       margin-left: 10px;
+           
+      }
+   #cards{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+         margin-bottom: 20px;
+   }
+   .card{
+       margin-bottom: 20px;
+   }
+   }
+
+ 
+   
+    
+   
+   
